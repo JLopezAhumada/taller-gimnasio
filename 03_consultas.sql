@@ -1,4 +1,4 @@
--- Taller gimnasio Cuerpo Activo · Parte F
+-- Parte F
 
 -- F1
 SELECT nombre, dia_semana, hora

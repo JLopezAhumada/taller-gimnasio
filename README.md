@@ -1,6 +1,6 @@
 # Gimnasio Cuerpo Activo
 
-Base de datos en PostgreSQL para el gimnasio Cuerpo Activo, que llevaba los socios en cuadernos y en un grupo de WhatsApp. Es el taller del módulo de Bases de Datos Relacionales de Generation Colombia (cohorte 15), con sus cuatro fases: diseñar, construir, preguntar y conectar.
+Base de datos en PostgreSQL para el gimnasio Cuerpo Activo, que llevaba los socios en cuadernos y en un grupo de WhatsApp. Es el taller del módulo de Bases de Datos Relacionales de Generation Colombia, con sus cuatro fases: diseñar, construir, preguntar y conectar.
 
 Jesús David López Ahumada
 
@@ -35,24 +35,24 @@ for f in [0-9]*.sql; do psql -d gimnasio_cuerpo_activo -v ON_ERROR_STOP=1 -f "$f
 
 Cada archivo se corre una sola vez, porque varios cambian la estructura (`ALTER TABLE`, `CREATE VIEW`). Sobre una base vacía los 18 pasan sin errores.
 
-| Archivo | Parte |
-|---|---|
-| `01_estructura.sql` | D · tablas |
-| `02_datos.sql` | E · datos iniciales |
-| `03_consultas.sql` | F · SELECT con WHERE |
-| `04_cambios.sql`, `05_actualizaciones.sql` | G · columna `estado`, UPDATE y DELETE |
-| `06_tipos.sql` | H · `valor_pagado` y `acepta_whatsapp` |
-| `07_restricciones.sql` | I · CHECK y UNIQUE con nombre |
-| `08_claves_foraneas.sql` | J · ON DELETE CASCADE donde aplica |
-| `09_mas_datos.sql`, `10_consultas.sql` | K · más datos y filtros |
-| `11_reportes.sql` | L · COUNT, SUM, MIN, MAX, AVG |
-| `12_por_grupos.sql` | M · GROUP BY y HAVING |
-| `13_joins.sql` | O · JOIN |
-| `14_sin_pareja.sql` | P · LEFT JOIN con IS NULL |
-| `15_horarios.sql` | Q · pasar por la tabla intermedia |
-| `16_informe.sql` | R · JOIN con GROUP BY, la clase de Pilates |
-| `17_subconsultas.sql` | S · IN, NOT IN y el promedio |
-| `18_vistas.sql` | T · vistas para recepción |
+| Archivo | Parte | Qué hace |
+|---|---|---|
+| `01_estructura.sql` | D | tablas |
+| `02_datos.sql` | E | datos iniciales |
+| `03_consultas.sql` | F | SELECT con WHERE |
+| `04_cambios.sql`, `05_actualizaciones.sql` | G | columna `estado`, UPDATE y DELETE |
+| `06_tipos.sql` | H | `valor_pagado` y `acepta_whatsapp` |
+| `07_restricciones.sql` | I | CHECK y UNIQUE con nombre |
+| `08_claves_foraneas.sql` | J | ON DELETE CASCADE donde aplica |
+| `09_mas_datos.sql`, `10_consultas.sql` | K | más datos y filtros |
+| `11_reportes.sql` | L | COUNT, SUM, MIN, MAX, AVG |
+| `12_por_grupos.sql` | M | GROUP BY y HAVING |
+| `13_joins.sql` | O | JOIN |
+| `14_sin_pareja.sql` | P | LEFT JOIN con IS NULL |
+| `15_horarios.sql` | Q | pasar por la tabla intermedia |
+| `16_informe.sql` | R | JOIN con GROUP BY, la clase de Pilates |
+| `17_subconsultas.sql` | S | IN, NOT IN y el promedio |
+| `18_vistas.sql` | T | vistas para recepción |
 
 ## Lo que recepción consulta cada mañana
 

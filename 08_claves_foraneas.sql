@@ -1,4 +1,4 @@
--- Taller gimnasio Cuerpo Activo · Parte J
+-- Parte J
 -- Las otras cuatro claves se quedan protegiendo (NO ACTION)
 
 ALTER TABLE fichas_medicas DROP CONSTRAINT fichas_medicas_socio_id_fkey;

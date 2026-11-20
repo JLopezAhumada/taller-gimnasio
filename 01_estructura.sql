@@ -1,4 +1,4 @@
--- Taller gimnasio Cuerpo Activo · Parte D
+-- Parte D
 -- Primero, desde la base postgres:
 --   CREATE DATABASE gimnasio_cuerpo_activo;
 -- Despues, en el Query Tool de gimnasio_cuerpo_activo:

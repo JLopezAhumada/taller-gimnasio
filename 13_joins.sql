@@ -1,4 +1,4 @@
--- Taller gimnasio Cuerpo Activo · Parte O
+-- Parte O
 
 -- O1
 SELECT m.id, s.nombre AS socio, p.nombre AS plan,

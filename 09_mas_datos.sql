@@ -1,4 +1,4 @@
--- Taller gimnasio Cuerpo Activo · Parte K (datos)
+-- Parte K (datos)
 -- Los socios nuevos se buscan por documento, no por id
 
 INSERT INTO socios (documento, nombre, telefono, correo, acepta_whatsapp) VALUES

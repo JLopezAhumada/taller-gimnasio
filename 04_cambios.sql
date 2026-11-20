@@ -1,4 +1,4 @@
--- Taller gimnasio Cuerpo Activo · Parte G (estructura)
+-- Parte G (estructura)
 
 ALTER TABLE clases
     ADD COLUMN estado VARCHAR(10) NOT NULL DEFAULT 'activa';

@@ -1,4 +1,4 @@
--- Taller gimnasio Cuerpo Activo · Parte T
+-- Parte T
 
 -- T1
 CREATE VIEW socios_vencidos AS

@@ -1,4 +1,4 @@
--- Taller gimnasio Cuerpo Activo · Parte E
+-- Parte E
 
 INSERT INTO planes (nombre, duracion_meses, precio) VALUES
     ('Mensual',     1,  90000),

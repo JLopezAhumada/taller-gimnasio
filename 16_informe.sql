@@ -1,4 +1,4 @@
--- Taller gimnasio Cuerpo Activo · Parte R
+-- Parte R
 -- Pilates lo dicta Daniela (entrenadora 2)
 
 INSERT INTO clases (nombre, dia_semana, hora, cupo, entrenador_id)

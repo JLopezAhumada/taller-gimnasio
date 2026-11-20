@@ -1,4 +1,4 @@
--- Taller gimnasio Cuerpo Activo · Parte G (datos)
+-- Parte G (datos)
 
 -- Jorge Polo cambio de numero
 SELECT id, nombre, telefono FROM socios WHERE id = 4;

@@ -1,4 +1,4 @@
--- Taller gimnasio Cuerpo Activo · Parte M
+-- Parte M
 
 -- M1
 SELECT plan_id, COUNT(*) AS vendidas

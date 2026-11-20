@@ -1,4 +1,4 @@
--- Taller gimnasio Cuerpo Activo · Parte I
+-- Parte I
 
 ALTER TABLE membresias ALTER COLUMN valor_pagado SET NOT NULL;
 

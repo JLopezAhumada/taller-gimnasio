@@ -1,4 +1,4 @@
--- Taller gimnasio Cuerpo Activo · Parte S
+-- Parte S
 
 -- S1
 SELECT m.id, s.nombre, m.valor_pagado

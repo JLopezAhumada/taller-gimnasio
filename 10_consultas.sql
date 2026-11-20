@@ -1,4 +1,4 @@
--- Taller gimnasio Cuerpo Activo · Parte K (consultas)
+-- Parte K (consultas)
 
 -- K1
 SELECT id, socio_id, plan_id, fecha_inicio, fecha_fin

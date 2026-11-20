@@ -1,4 +1,4 @@
--- Taller gimnasio Cuerpo Activo · Parte L
+-- Parte L
 
 -- L1
 SELECT COUNT(*) AS socios, COUNT(correo) AS con_correo

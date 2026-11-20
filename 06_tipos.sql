@@ -1,4 +1,4 @@
--- Taller gimnasio Cuerpo Activo · Parte H
+-- Parte H
 
 ALTER TABLE membresias ADD COLUMN valor_pagado NUMERIC(10,2);
 

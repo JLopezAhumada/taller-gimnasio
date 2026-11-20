@@ -1,4 +1,4 @@
--- Taller gimnasio Cuerpo Activo · Parte Q
+-- Parte Q
 
 -- Q1: horario de Laura (socio 1)
 -- socios -> inscripciones -> clases -> entrenadores

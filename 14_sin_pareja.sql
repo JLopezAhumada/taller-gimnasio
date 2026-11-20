@@ -1,4 +1,4 @@
--- Taller gimnasio Cuerpo Activo · Parte P
+-- Parte P
 
 -- P1
 SELECT e.nombre, e.especialidad
